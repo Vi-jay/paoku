@@ -18,6 +18,7 @@ export default class Main extends cc.Component {
     protected onLoad() {
         const physicsManager = cc.director.getPhysicsManager();
         physicsManager.enabled = true;
+        physicsManager.gravity = cc.v2(0, -320);
         this.initRoads();
         this.node.on(EventType.TOUCH_START, () => {
             this.player.getComponent(Player).jump();
@@ -34,7 +35,7 @@ export default class Main extends cc.Component {
         const last = _.last(this.curList);
         const distance = _.random(100, 200);
         const lastDistance = last ? (last.width / 2 + last.x) + distance : 0;
-        const width = _.random(3, 5) * 100;
+        const width = _.random(1, 3) * 100;
         roadNode.getComponent(Road).init(width);
         roadNode.setPosition(cc.v2(lastDistance + roadNode.width / 2, last ? _.random(-200, 100) : -100))
         this.node.addChild(roadNode);

@@ -177,7 +177,7 @@
       "array": [
         0,
         0,
-        220.18695891219355,
+        219.96333653987833,
         0,
         0,
         0,
@@ -471,27 +471,27 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 80,
-      "height": 100
+      "width": 23,
+      "height": 56
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
       "x": 0.5,
-      "y": 0.5
+      "y": 0
     },
     "_trs": {
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        -32.043,
         0,
         0,
         0,
         0,
         1,
-        1,
-        1,
+        2,
+        2,
         1
       ]
     },
@@ -524,10 +524,10 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "404c0be9-aa50-4e78-be31-2f462bac00b9"
+      "__uuid__": "bcaca601-f367-49d2-80f1-82d49265bc46"
     },
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 1,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -537,9 +537,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
-    "_atlas": {
-      "__uuid__": "8f0b7da0-879e-403d-8f1e-076aeb2181e9"
-    },
+    "_atlas": null,
     "_id": "77WyF9lfdMapnXAXPG1wjo"
   },
   {
@@ -551,11 +549,14 @@
     },
     "_enabled": true,
     "_defaultClip": {
-      "__uuid__": "e5da2d96-7bfb-4f7c-858c-e5e046d1cced"
+      "__uuid__": "8f3791c0-8483-47f3-b423-0be7f1b9db46"
     },
     "_clips": [
       {
-        "__uuid__": "e5da2d96-7bfb-4f7c-858c-e5e046d1cced"
+        "__uuid__": "8f3791c0-8483-47f3-b423-0be7f1b9db46"
+      },
+      {
+        "__uuid__": "f523b35e-7ed3-43fe-b68b-f689c5f5296d"
       }
     ],
     "playOnLoad": true,
@@ -603,12 +604,12 @@
     "_offset": {
       "__type__": "cc.Vec2",
       "x": 0,
-      "y": 0
+      "y": 24
     },
     "_size": {
       "__type__": "cc.Size",
-      "width": 80,
-      "height": 100
+      "width": 30,
+      "height": 56
     },
     "_id": "47+2tSO2BI9pQGINEeF7Hr"
   },
@@ -667,7 +668,7 @@
       "array": [
         0,
         0,
-        220.18695891219355,
+        219.96333653987833,
         0,
         0,
         0,
